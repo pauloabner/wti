@@ -3,5 +3,4 @@ RUN apt-get update && apt-get install -y \
 	git \
 	python \
 	vim
-CMD ["echo", "hello world"]
-
+COPY abner.txt /usr/abner.txt
